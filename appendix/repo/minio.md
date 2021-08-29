@@ -36,7 +36,7 @@ docker save -o minio.tar minio/minio:latest
 把压缩文件复制到内网服务器上，使用下面的命令导入镜像
 
 ```bash
-docker load minio.tar 
+docker load -i minio.tar 
 ```
 
 ### 运行 minio
